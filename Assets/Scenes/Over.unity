@@ -279,23 +279,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &617180549 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7144573667943306824, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
-  m_PrefabInstance: {fileID: 1038825369}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &617180557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617180549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a26ad28404ed1345a72f19650caf7bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,6 +462,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 617180550, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
+      propertyPath: mainEngine
+      value: 
+      objectReference: {fileID: 8300000, guid: 02d1153e2d793624f9e6f3211a22079a, type: 3}
+    - target: {fileID: 617180556, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 617180557, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
+      propertyPath: crash
+      value: 
+      objectReference: {fileID: 8300000, guid: 3837d06571a2c6e408084f5cdca52894, type: 3}
+    - target: {fileID: 617180557, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
+      propertyPath: succes
+      value: 
+      objectReference: {fileID: 8300000, guid: ea2273cc75adcd144b03ee728186e040, type: 3}
     - target: {fileID: 7144573667943306824, guid: f5172bd85c74fc94c93e8153959b80d7, type: 3}
       propertyPath: m_Name
       value: rocket
